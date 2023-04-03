@@ -1,0 +1,8 @@
+<div class="row">
+    <h2>{{code.name}}</h2>
+    <div class="posters">
+        <div *ngFor="let movie of data.results">
+            <img class="poster" alt="poster" src="{{imagebaseurl + movie.backdrop_path}}" >
+        </div>
+    </div>
+</div>
